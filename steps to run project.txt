@@ -1,0 +1,10 @@
+create virtual env inside the project: python -m virtualenv <env name>
+
+activate virtual env: <env name>\Scripts\activate
+
+install packages from requirements.txt : pip install -r requirements.txt 
+
+(while installing req if the version of package does not matches then install generally: pip install <package name>)
+
+run the gui program: py gui.py
+
